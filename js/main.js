@@ -238,9 +238,8 @@ function calculateDeformation(e) {
     else{
         yhorizontaldeformer = 0;
     }
-    
 
-    console.log(yhorizontaldeformer)
+    // console.log(yhorizontaldeformer)
     
     peeledRect.bottomRighty = clamp(peeledBottomRightY, 0, (activeSticker.endY * 2 - activeSticker.y)) - yhorizontaldeformer;
     peeledRect.bottomLefty = clamp(peeledBottomLeftY, 0, (activeSticker.endY * 2 - activeSticker.y)) - Math.abs(btmLeftxDeformer);
