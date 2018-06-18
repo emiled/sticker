@@ -148,7 +148,6 @@ function draw() {
             }
         }
     }
-
 }
 
 
@@ -195,7 +194,6 @@ function calculateDeformation(e) {
 
     // console.log("right side is: " + rightLength + " left side is: " + leftLength);
 
-
         // btmRightxDeformer = clamp(xMovement, -dragHeight, dragHeight);
 
     if (rightLength < activeSticker.h){  // right length x deformer
@@ -240,6 +238,7 @@ function calculateDeformation(e) {
     else{
         yhorizontaldeformer = 0;
     }
+    
 
     console.log(yhorizontaldeformer)
     
